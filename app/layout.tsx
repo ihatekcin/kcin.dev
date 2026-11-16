@@ -28,12 +28,12 @@ export const metadata: Metadata = {
     default: 'Nick Luca — Portfolio',
     template: '%s',
   },
-  description: 'Minimal portfolio and writing by Nick Luca (kcin/ihatekcin), full-stack developer.',
+  description: 'Minimal portfolio by Nick Luca (kcin/ihatekcin), full-stack developer.',
   authors: [{ name: 'Nick Luca', url: 'https://kcin.dev' }],
   creator: 'Nick Luca',
   openGraph: {
     title: 'Nick Luca — Portfolio',
-    description: 'Minimal portfolio and writing by Nick Luca (kcin/ihatekcin).',
+    description: 'Minimal portfolio by Nick Luca (kcin/ihatekcin).',
     url: 'https://kcin.dev',
     siteName: 'Nick Luca',
     locale: 'en_US',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Nick Luca — Portfolio',
-    description: 'Minimal portfolio and writing by Nick Luca (kcin/ihatekcin).',
+    description: 'Minimal portfolio by Nick Luca (kcin/ihatekcin).',
   },
   robots: {
     index: true,
@@ -73,4 +73,3 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
     </html>
   );
 }
-
