@@ -20,7 +20,8 @@ const postsJsonPath = path.join(postsDirectory, 'posts.json');
 export function getAllPosts(): PostMeta[] {
   try {
     const fileContents = fs.readFileSync(postsJsonPath, 'utf8');
-    return JSON.parse(fileContents);
+    const posts: PostMeta[] = JSON.parse(fileContents);
+    return posts.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
   } catch (error) {
     console.error('Error reading posts.json:', error);
     return [];

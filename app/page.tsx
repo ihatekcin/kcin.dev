@@ -40,7 +40,7 @@ export default function PortfolioPage() {
                 Nick Luca
               </h1>
               <p className="text-md opacity-60 tracking-wider">
-                Information Technology, VDI @ California ISO
+                IT Support Specialist @ California ISO
               </p>
             </div>
 

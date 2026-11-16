@@ -1,42 +1,16 @@
 [
   {
-    "slug": "blog-1",
-    "title": "Blog#1",
-    "date": "November 13, 2026",
-    "readTime": "1 min read",
-    "summary": "hi test 1",
-    "file": "blog-1.mdx"
+    "slug": "new-pc",
+    "title": "New PC",
+    "date": "May 31, 2026",
+    "readTime": "3 min read",
+    "file": "new-pc.mdx"
   },
   {
-    "slug": "blog-2",
-    "title": "Blog#2",
-    "date": "November 13, 2026",
-    "readTime": "1 min read",
-    "summary": "hi test 2",
-    "file": "blog-2.mdx"
-  },
-  {
-    "slug": "blog-3",
-    "title": "Blog#3",
-    "date": "November 13, 2026",
-    "readTime": "1 min read",
-    "summary": "hi test 3",
-    "file": "blog-3.mdx"
-  },
-  {
-    "slug": "blog-4",
-    "title": "Blog#4",
-    "date": "November 13, 2026",
-    "readTime": "1 min read",
-    "summary": "hi test 4",
-    "file": "blog-4.mdx"
-  },
-  {
-    "slug": "blog-5",
-    "title": "Blog#5",
-    "date": "November 13, 2026",
-    "readTime": "1 min read",
-    "summary": "hi test 5",
-    "file": "blog-5.mdx"
+    "slug": "how-i-organise-my-life",
+    "title": "How I Organise My Life",
+    "date": "August 23, 2026",
+    "readTime": "8 min read",
+    "file": "organise-life.mdx"
   }
 ]
