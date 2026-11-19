@@ -24,15 +24,16 @@ const newsreader = Newsreader({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://kcin.dev'),
+  icons: { icon: '/favicon.svg' },
   title: {
-    default: 'Nick Luca — Portfolio',
+    default: 'Nick Luca',
     template: '%s',
   },
   description: 'Minimal portfolio by Nick Luca (kcin/ihatekcin), full-stack developer.',
   authors: [{ name: 'Nick Luca', url: 'https://kcin.dev' }],
   creator: 'Nick Luca',
   openGraph: {
-    title: 'Nick Luca — Portfolio',
+    title: 'Nick Luca',
     description: 'Minimal portfolio by Nick Luca (kcin/ihatekcin).',
     url: 'https://kcin.dev',
     siteName: 'Nick Luca',
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nick Luca — Portfolio',
+    title: 'Nick Luca',
     description: 'Minimal portfolio by Nick Luca (kcin/ihatekcin).',
   },
   robots: {
