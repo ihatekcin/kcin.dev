@@ -53,7 +53,7 @@ export default function PortfolioPage() {
               competitive gaming (Deadlock and CS2), video editing with Davinci Resolve, and working out.
             </p>
 
-            <a href="/Nick_Luca_Resume.pdf" target="_blank" rel="noreferrer">
+            <a href="/Nick_L_Resume.pdf" target="_blank" rel="noreferrer">
               <p className="text-md hover:underline pt-2 -mb-4">View my resume (PDF) <ArrowUpRight className="w-4 h-4 inline" /></p>
             </a>
           </section>
