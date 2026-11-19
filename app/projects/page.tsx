@@ -41,7 +41,7 @@ export default function ProjectsPage() {
             <span className="font-mono-ink text-xs opacity-50">[ {ALL_PROJECTS.length} ]</span>
           </div>
           <p className="font-serif-ink italic text-sm sm:text-base opacity-75">
-            Here are some of the projects I've worked on.
+            Here are some of the projects I&apos;ve worked on.
           </p> 
         </header> 
 

@@ -48,7 +48,7 @@ export default function PortfolioPage() {
               id="bio-paragraph"
               className="text-base sm:text-md  leading-relaxed opacity-90 pt-2 text-justify"
             >
-              I'm a 22 y/o cs undergrad student. I build full-stack applications with a focus on performance and  
+              I&apos;m a 22 y/o cs undergrad student. I build full-stack applications with a focus on performance and
               optimization. I enjoy automation and theoretical computer science. My off-work activities include  
               competitive gaming (Deadlock and CS2), video editing with Davinci Resolve, and working out.
             </p>
