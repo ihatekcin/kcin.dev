@@ -29,7 +29,8 @@ interface LanyardData {
   };
 }
 
-const DISCORD_USER_ID = process.env.NEXT_PUBLIC_DISCORD_USER_ID?.trim();
+// Public Discord ID: keep presence working when the deployment omits the env override.
+const DISCORD_USER_ID = process.env.NEXT_PUBLIC_DISCORD_USER_ID?.trim() || '195712965536776192';
 
 function getPacificTimeString(): string {
   try {
