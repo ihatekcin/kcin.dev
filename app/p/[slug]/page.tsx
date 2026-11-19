@@ -115,7 +115,7 @@ export default async function PostPage({ params }: PostPageProps) {
     >
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
       <div className="max-w-3xl mx-auto border-l border-dashed border-neutral-400 dark:border-neutral-600">
       {/* Top Minimal Navigation Bar */}
